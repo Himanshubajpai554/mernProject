@@ -1,0 +1,85 @@
+.card {
+  box-shadow: 32px 23px 320px 32px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  background-color: white;
+  width:fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 4em;
+  border-radius: 20px;
+  margin-top: 30px;
+  height: 575px;
+}
+.createAnAccount {
+  color: #191D23;
+  font-size: 3em;
+  text-align: center;
+}
+.intro{
+  color: #64748B;
+  font-size: 1em;
+  align-items: start;
+}
+
+.or{
+  text-align: center;
+  color: #64748B;
+
+}
+
+.input{
+  font-size: x-large;
+  height: 1.5em;
+  border-radius: 2;
+  width: 17em;
+  margin-top: 0.3em;
+  margin-bottom: 0.5em;
+  background-color: #F7F8F9;
+  border-radius: 6px;
+  border: #E7EAEE;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.signupButton{
+  width: 20em;
+  font-size: 1em;
+  padding: .5em;
+  align-self: center;
+  margin: 0.7em auto;
+  justify-content: center;
+  display: flex;
+  border-radius: 20px;
+  color: aliceblue;
+  border: none;
+  font-weight: bolder;
+  background-color: #10B981;
+}
+.googleSignUpButton{
+  width: 20em;
+  font-size: 1em;
+  padding: .5em;
+  align-self: center;
+  margin: 0.7em auto;
+  justify-content: center;
+  display: flex;
+  border-radius: 20px;
+  color: aliceblue;
+  font-weight: bolder;
+  background-color: #000000;
+}
+
+.alreadyHaveAnAccount{
+  font-size: medium;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.login{
+  color: #10B981;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 800;
+}

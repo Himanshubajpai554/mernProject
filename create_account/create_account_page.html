@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mern Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./create_account_page.css" />
+  </head>
+  <body>
+    
+    <div class="card">
+      <form onsubmit="mainPage()" action="../homePage/mainpage.html">
+        <h1 class="createAnAccount">Create an account</h1>
+        <br />
+        <label class="intro">Email</label><br />
+        <input
+          inputmode="kana-name"
+          class="input"
+          name="user-fullname"
+          type="name"
+          autocomplete="off"
+        /><br />
+        <label class="intro">Email</label><br />
+        <input
+          type="email"
+          class="input"
+          inputmode="email"
+          name="user-email"
+        /><br />
+        <label class="intro">Password</label><br />
+        <input class="input" type="password" name="user-password" /><br />
+        <label class="intro">Phone Number</label><br />
+        <input class="input" inputmode="numeric" name="user-phoneNumber" /><br>
+
+        <button class="signupButton" onclick="" type="submit">Sign Up</button>
+
+        <p class="or">or</p>
+
+        <button class="googleSignUpButton"><i class="fa-brands fa-google" style="color: #ffffff; margin-right: 0.7em;"></i>Sign Up with google</button>
+
+        <p class="alreadyHaveAnAccount">Already have an Account? <a class="login" href="">Login</a></p>
+
+      </form>
+    </div>
+    <div id="root"></div>
+        
+    <script src="./create_account_page.js"></script>
+  </body>
+</html>
